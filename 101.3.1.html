@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nitisha</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am a passionate web developer with a keen interest in creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt="Project 1">
+            <h3>Project 1: Task Management Application</h3>
+            <p>Description:Build a task management application that helps users organize their tasks and projects. Users can create tasks, set deadlines, assign priorities, and categorize tasks into different projects or categories. The application should allow users to mark tasks as completed, set reminders, and view tasks in different views (e.g., list view, calendar view).
+            </p>
+        </div>
+        <div class="project-card">
+            
+            <h3>Project 2:Blogging Platform</h3>
+            <p>Description:Develop a web-based platform where users can create, publish, and manage their own blogs. Users should be able to register, log in, and customize their blogs with themes and layouts. The platform should include features such as rich text editor for writing posts, image uploading, comments section, and user profiles.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
